@@ -1,0 +1,23 @@
+.list-container {
+  margin: 20px;
+}
+.thumbnail {
+  width: 150px;
+}
+.th-btn {
+  border: 0px solid;
+  width: 150px;
+  background-color: inherit;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .list-container {
+    margin: 5px;
+  }
+  .thumbnail {
+    width: 70px;
+  }
+  .th-btn {
+    width: 70px;
+  }
+}

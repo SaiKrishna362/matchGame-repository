@@ -1,0 +1,25 @@
+.button {
+  background-color: inherit;
+  border: 0px solid;
+
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.act-button {
+  color: #fec653;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #fec653;
+}
+@media screen and (max-width: 576px) {
+  .button {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .act-button {
+    color: #fec653;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fec653;
+  }
+}
